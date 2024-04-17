@@ -20,3 +20,26 @@ body {
     border: 1px solid #ccc;
     border-radius: 5px;
   }
+  .box img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+  }
+
+  .box img[alt="imagem 1"] {
+    content: "Descrição alternativa para imagem 1";
+  }
+
+  .box img[alt="imagem 2"] {
+    content: "Descrição alternativa para imagem 2";
+  }
+
+  .box img[alt="imagem 3"] {
+    content: "Descrição alternativa para imagem 3";
+  }
+
+  /* Estilos adicionais para melhorar acessibilidade */
+  .box:focus {
+    outline: 2px solid blue;
+  }
